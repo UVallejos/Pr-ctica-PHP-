@@ -9,7 +9,7 @@
 session_start();
 if($_POST){
 
-    if($_POST["usuario"]=="gimpana" && ($_POST["contrasenia"]=="123456")){
+    if($_POST["usuario"]=="root" && ($_POST["contrasenia"]=="123456")){
         $_SESSION["usuario"] = "gimpana";
         header("location:index.php");
 
