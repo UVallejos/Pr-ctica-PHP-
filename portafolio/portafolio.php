@@ -13,7 +13,7 @@
 
 session_start();
 
-if( isset($_SESSION["usuario"]) != "gimpana" ){
+if( isset($_SESSION["usuario"]) != "root" ){
     header("location:login.php");
 }
 
